@@ -1,0 +1,23 @@
+.book-item{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.book-item img{
+    max-width: 100px;
+    margin-right: 20px;
+}
+.book-item div{
+    flex-grow: 1;
+}
+.book-item button{
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.book-item button:hover{
+    background: #555;
+}
